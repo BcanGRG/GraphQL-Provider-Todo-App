@@ -3,7 +3,7 @@ import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:graphql_provider_todo_app/screens/home_screen.dart';
 
 void main() async {
-  HiveStore.openBox;
+  await initHiveForFlutter();
   runApp(MyApp());
 }
 
